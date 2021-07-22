@@ -1,0 +1,26 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+/* Utilities */
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 700;
+}
+
+/* Banner Area */
+.carousel-item {
+  height: 500px;
+  vertical-align: center;
+}
+
+.carousel-item.item-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/banner-images/banner-image-1.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.carousel-item.item-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/banner-images/banner-image-2.jpg') no-repeat center;
+  background-size: cover;
+}

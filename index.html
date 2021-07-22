@@ -20,17 +20,65 @@
     />
 
     <!-- TItle -->
-    <title>ডিজিটাল কুরবানি হাট</title>
+    <title>ডিজিটাল কুরবানী হাট</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Header Area Start Here -->
+    <header
+      style="z-index: 9999"
+      id="header-area"
+      class="position-absolute top-0 left-0 w-100"
+    >
+      <nav class="navbar navbar-expand-lg py-2 navbar-dark">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.svg" alt="logo" class="img-fluid"
+          /></a>
+
+          <!-- Navbar Link -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="javascript:void(0)"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ক্যাটাগরি
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="javascript:void(0)">দেশি</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="javascript:void(0)"
+                    >ইন্ডিয়ান</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="javascript:void(0)">
+                    ফ্রিজিয়ান
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Area End Here -->
+
     <!-- Main Area Start Here -->
     <main>
       <!-- Banner Area Start Here -->
       <section id="banner-area">
-        <div class="container">
+        <div class="container-fluid p-0">
           <div
             id="carouselExampleControls"
             class="carousel slide carousel-fade"
@@ -86,32 +134,6 @@
                 </div>
               </div>
             </div>
-            <!-- Prev Button -->
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <!-- Next Button -->
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </section>
@@ -551,24 +573,120 @@
     <!-- Main Area Start End -->
 
     <!-- Footer Area Start Here -->
-    <footer id="footer-area">
+    <footer id="footer-area" class="bg-dark text-light">
       <!-- Footer Widget -->
-      <div class="footer-widget bg-dark text-light py-4">
+      <div class="footer-widget py-5">
         <div class="container">
-          <div class="row">
+          <div class="row g-4">
             <!-- Widget Column -->
-            <div class="col-xl-4">
-              <p>
+            <div class="col-md-6 col-xl-3">
+              <a href="index.html"
+                ><img src="images/logo.svg" alt="logo" class="img-fluid"
+              /></a>
+              <p class="text-muted mb-0 mt-3">
                 ঢাকা উত্তর সিটি কর্পোরেশন, বাংলাদেশ ডেইরী ফার্মার্স এসোসিয়েশন,
                 এটুআই - একশপ ও ই-ক্যাবের উদ্যোগে কোরবানি পশু বিক্রির জমজমাট
                 অনলাইন প্ল্যাটফর্ম ‘ডিজিটাল গরুর হাট’
               </p>
+            </div>
+            <!-- Widget Column -->
+            <div class="col-md-6 col-xl-3">
+              <h3 class="h4 fw-bold">ডিজিটাল হাট</h3>
+              <!-- Footer Links -->
+              <div class="footer-links mt-2 mt-xl-4">
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >আমাদের সম্পর্কে</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >পশু বিক্রয়ের গাইড</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >প্রশ্নত্তোরে ডিজিটাল হাট</a
+                  >
+                </p>
+                <p class="mb-0">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >সর্বশেষ পশু বিক্রয় তথ্য</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- Widget Column -->
+            <div class="col-md-6 col-xl-3">
+              <h3 class="h4 fw-bold">নীতিমালা</h3>
+              <!-- Footer Links -->
+              <div class="footer-links mt-2 mt-xl-4">
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >অর্থ লেনদেন</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >নিরাপত্তা</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >গোপনীয়তা</a
+                  >
+                </p>
+                <p class="mb-0">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="javascript:void(0)"
+                    >স্ট্যান্ডার্ড অপারেটিং প্রসিডিউর (এস ও পি)</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- Widget Column -->
+            <div class="col-md-6 col-xl-3">
+              <h3 class="h4 fw-bold">যোগাযোগ</h3>
+              <!-- Footer Links -->
+              <div class="footer-links mt-2 mt-xl-4">
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="tel:+8801610137665"
+                    >+88 016 1013 7665</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a
+                    class="text-muted text-decoration-none"
+                    href="mailto:contact.faysalchowdhury99@gmail.com"
+                    >contact@digitalgorurhaat.com</a
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- Copyright -->
       <div class="copyright py-3">
+        <!-- Horizontal Row -->
+        <hr />
         <div class="container">
           <p class="text-center mb-0">© কপিরাইট ২০২১ । ডিজিটাল গরুর হাট</p>
         </div>

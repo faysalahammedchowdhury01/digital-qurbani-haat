@@ -5,6 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -37,7 +43,7 @@
                   class="row justify-content-center align-items-center h-100"
                 >
                   <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
-                    <p class="text-warning">
+                    <p class="text-warning fw-bold">
                       একমাত্র আমরাই দিচ্ছি আপনাদের এই সুযোগ।
                     </p>
                     <h2 class="h2 fw-bold text-white">
@@ -65,7 +71,7 @@
                   class="row justify-content-center align-items-center h-100"
                 >
                   <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
-                    <p class="text-warning">
+                    <p class="text-warning fw-bold">
                       সম্পুর্ন রাসায়নিক মুক্ত অনলাইন হাট
                     </p>
                     <h2 class="h2 fw-bold text-white">
@@ -115,8 +121,140 @@
       <section id="category-area">
         <div class="container pt-5">
           <!-- Section Intro -->
-          <div class="section-intro">
-            <h2 class="h2 fw-bold">সকল ক্যাটাগরি</h2>
+          <div class="section-intro mb-4">
+            <h2 class="h4 fw-bold">সকল ক্যাটাগরি</h2>
+          </div>
+          <!-- Categories -->
+          <div
+            class="
+              categories
+              row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5
+              g-4
+            "
+          >
+            <!-- Category -->
+            <div class="col">
+              <a
+                href="javascript:void(0)"
+                class="
+                  category
+                  d-block
+                  text-center
+                  bg-light
+                  p-4
+                  text-decoration-none
+                "
+              >
+                <div class="category-image mx-auto p-3 rounded-circle">
+                  <img
+                    class="img-fluid"
+                    src="images/categories/cow.png"
+                    alt="cow"
+                  />
+                </div>
+                <h4 class="h4 fw-bold mt-2 text-dark">গরু</h4>
+              </a>
+            </div>
+            <!-- Category -->
+            <div class="col">
+              <a
+                href="javascript:void(0)"
+                class="
+                  category
+                  d-block
+                  text-center
+                  bg-light
+                  p-4
+                  text-decoration-none
+                "
+              >
+                <div class="category-image mx-auto p-3 rounded-circle">
+                  <img
+                    class="img-fluid"
+                    src="images/categories/goat.png"
+                    alt="cow"
+                  />
+                </div>
+                <h4 class="h4 fw-bold mt-2 text-dark text-decoration-none">
+                  ছাগল
+                </h4>
+              </a>
+            </div>
+            <!-- Category -->
+            <div class="col">
+              <a
+                href="javascript:void(0)"
+                class="
+                  category
+                  d-block
+                  text-center
+                  bg-light
+                  p-4
+                  text-decoration-none
+                "
+              >
+                <div class="category-image mx-auto p-3 rounded-circle">
+                  <img
+                    class="img-fluid"
+                    src="images/categories/sheep.png"
+                    alt="cow"
+                  />
+                </div>
+                <h4 class="h4 fw-bold mt-2 text-dark text-decoration-none">
+                  ভেড়া
+                </h4>
+              </a>
+            </div>
+            <!-- Category -->
+            <div class="col">
+              <a
+                href="javascript:void(0)"
+                class="
+                  category
+                  d-block
+                  text-center
+                  bg-light
+                  p-4
+                  text-decoration-none
+                "
+              >
+                <div class="category-image mx-auto p-3 rounded-circle">
+                  <img
+                    class="img-fluid"
+                    src="images/categories/camel.png"
+                    alt="cow"
+                  />
+                </div>
+                <h4 class="h4 fw-bold mt-2 text-dark text-decoration-none">
+                  ঊট
+                </h4>
+              </a>
+            </div>
+            <!-- Category -->
+            <div class="col">
+              <a
+                href="javascript:void(0)"
+                class="
+                  category
+                  d-block
+                  text-center
+                  bg-light
+                  p-4
+                  text-decoration-none
+                "
+              >
+                <div class="category-image mx-auto p-3 rounded-circle">
+                  <img
+                    class="img-fluid"
+                    src="images/categories/buffalo.png"
+                    alt="cow"
+                  />
+                </div>
+                <h4 class="h4 fw-bold mt-2 text-dark text-decoration-none">
+                  মহিষ
+                </h4>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -127,7 +265,7 @@
         <div class="container py-5">
           <!-- Section Intro -->
           <div class="section-intro mb-4">
-            <h2 class="h2 fw-bold">দেশি গরু</h2>
+            <h2 class="h4 fw-bold">দেশি গরু</h2>
           </div>
           <!-- Cows -->
           <div class="row cows g-4">
@@ -144,7 +282,7 @@
                     কুরবানী স্পেশাল ষাড় গরু। Desi shar for online gorur haat
                     -Eid09
                   </h6>
-                  <p>৳৬৫,০০০</p>
+                  <p class="fw-bold">৳৬৫,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -164,7 +302,7 @@
                     কুরবানী স্পেশাল ষাড় গরু। Desi shar for online gorur haat
                     -Eid07
                   </h6>
-                  <p>৳৬৭,০০০</p>
+                  <p class="fw-bold">৳৬৭,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -184,7 +322,7 @@
                     কুরবানী স্পেশাল ষাড় গরু। Desi shar for online gorur haat
                     -Eid06
                   </h6>
-                  <p>৳৭৫,০০০</p>
+                  <p class="fw-bold">৳৭৫,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -204,7 +342,7 @@
                     কুরবানী স্পেশাল ষাড় গরু। Desi shar for online gorur haat
                     -Eid05
                   </h6>
-                  <p>৳৯৫,০০০</p>
+                  <p class="fw-bold">৳৯৫,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -221,7 +359,7 @@
         <div class="container">
           <!-- Section Intro -->
           <div class="section-intro mb-4">
-            <h2 class="h2 fw-bold">ফ্রিজিয়ান গরু</h2>
+            <h2 class="h4 fw-bold">ফ্রিজিয়ান গাভী</h2>
           </div>
           <!-- Cows -->
           <div class="row cows g-4">
@@ -237,7 +375,7 @@
                   <h6 class="h6">
                     উন্নতমানের ফ্রিজিয়ান গাভী যার দুধের পরিমান ২০-২২ লিটার
                   </h6>
-                  <p>৳১৬৫,০০০</p>
+                  <p class="fw-bold">৳১৬৫,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -256,7 +394,7 @@
                   <h6 class="h6">
                     উন্নতমানের ফ্রিজিয়ান গাভী যার দুধের পরিমান ২৮-৩০ লিটার
                   </h6>
-                  <p>৳২৬৭,০০০</p>
+                  <p class="fw-bold">৳২৬৭,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -275,7 +413,7 @@
                   <h6 class="h6">
                     উন্নতমানের ফ্রিজিয়ান গাভী যার দুধের পরিমান ৭-৮ লিটার
                   </h6>
-                  <p>৳৯৫,০০০</p>
+                  <p class="fw-bold">৳৯৫,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -294,7 +432,7 @@
                   <h6 class="h6">
                     উন্নতমানের ফ্রিজিয়ান গাভী যার দুধের পরিমান ৫-৬ লিটার
                   </h6>
-                  <p>৳৮৫,০০০</p>
+                  <p class="fw-bold">৳৮৫,০০০</p>
                 </div>
                 <div class="card-footer text-center bg-white border-0">
                   <button class="btn btn-primary rounded-0 w-100">কিনুন</button>
@@ -305,8 +443,138 @@
         </div>
       </section>
       <!-- Frizian Cows Area End Here -->
+
+      <!-- Sponsors Area Start Here -->
+      <section id="sponsors-area" class="py-5">
+        <div class="container">
+          <!-- Section Intro -->
+          <div class="section-intro mb-4">
+            <h2 class="h4 fw-bold">সহযোগী সংস্থাসমূহ</h2>
+          </div>
+          <!-- Sponsors Slider -->
+          <div class="swiper-container sponsors-slider">
+            <div class="swiper-wrapper align-items-center">
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/ab-bank.png"
+                  alt="ab-bank"
+                  class="img-fluid"
+                />
+              </a>
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/daraz.png"
+                  alt="daraz"
+                  class="img-fluid"
+                />
+              </a>
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/dhanshiri.png"
+                  alt="dhanshiri"
+                  class="img-fluid"
+                />
+              </a>
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/ekshop.png"
+                  alt="ekshop"
+                  class="img-fluid"
+                />
+              </a>
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/future.png"
+                  alt="future"
+                  class="img-fluid"
+                />
+              </a>
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/manobsheba.png"
+                  alt="manobsheba"
+                  class="img-fluid"
+                />
+              </a>
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/master-card.svg"
+                  alt="master-card"
+                  class="img-fluid"
+                />
+              </a>
+              <!-- Sponsor -->
+              <a
+                href="javascript:void(0)"
+                class="swiper-slide text-center d-block"
+              >
+                <img
+                  src="images/sponsors/ssl-commerz.png"
+                  alt="ssl-commerz"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sponsors Area End Here -->
     </main>
     <!-- Main Area Start End -->
+
+    <!-- Footer Area Start Here -->
+    <footer id="footer-area">
+      <!-- Footer Widget -->
+      <div class="footer-widget bg-dark text-light py-4">
+        <div class="container">
+          <div class="row">
+            <!-- Widget Column -->
+            <div class="col-xl-4">
+              <p>
+                ঢাকা উত্তর সিটি কর্পোরেশন, বাংলাদেশ ডেইরী ফার্মার্স এসোসিয়েশন,
+                এটুআই - একশপ ও ই-ক্যাবের উদ্যোগে কোরবানি পশু বিক্রির জমজমাট
+                অনলাইন প্ল্যাটফর্ম ‘ডিজিটাল গরুর হাট’
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="copyright py-3">
+        <div class="container">
+          <p class="text-center mb-0">© কপিরাইট ২০২১ । ডিজিটাল গরুর হাট</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area End Here -->
 
     <!-- Bootstrap Bundle with Popper -->
     <script
@@ -314,5 +582,33 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      const sponsorsSlider = new Swiper('.sponsors-slider', {
+        slidesPerView: 7,
+        spaceBetween: 80,
+        grabCursor: true,
+        breakpoints: {
+          0: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+          576: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+          768: {
+            slidesPerView: 5,
+          },
+          1200: {
+            slidesPerView: 7,
+            spaceBetween: 80,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

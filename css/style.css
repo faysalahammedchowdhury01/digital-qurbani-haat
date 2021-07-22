@@ -6,20 +6,6 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
-.section-intro {
-  position: relative;
-}
-
-.section-intro::after {
-  content: '';
-  position: absolute;
-  width: 60px;
-  height: 4px;
-  background-color: #0d6efd;
-  bottom: -5px;
-  left: 0;
-}
-
 /* Header Area */
 @media only screen and (max-width: 1500px) {
   .navbar-nav .dropdown-menu {
@@ -38,6 +24,7 @@ body {
 .carousel-item {
   height: 500px;
   padding-top: 50px;
+  padding: 0 20px;
 }
 
 .carousel-item.item-1 {
@@ -60,4 +47,11 @@ body {
 
 .category:hover .category-image {
   background-color: #ffffff !important;
+}
+
+/* Container Padding on Mobile Device */
+@media only screen and (max-width: 575px) {
+  .container {
+    padding: 0 20px !important;
+  }
 }
